@@ -1,18 +1,1 @@
-[
-  {
-    "objectID": "https://jerryliucn.github.io/zh-cn/posts/hugo-algolia-search/",
-    "title": "以Hugo 的 LoveIt 模板为例搭建github个人博客",
-    "description": "\u003ch1 id=\"hugo-集成-algolia-搜索技巧\"\u003eHugo 集成 Algolia 搜索技巧\u003c/h1\u003e\n\u003cp\u003e本文将手把手带你在 GitHub 上搭建高效、现代化的个人博客，内容涵盖：\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e博客框架选型：基于 \u003ca href=\"https://gohugo.io/\" target=\"_blank\" rel=\"noopener noreffer \"\u003eHugo\u003c/a\u003e 静态网站生成器，配合美观强大的 \u003ca href=\"https://hugoloveit.com/\" target=\"_blank\" rel=\"noopener noreffer \"\u003eLoveIt\u003c/a\u003e 主题。\u003c/li\u003e\n\u003cli\u003e自动化部署：利用 GitHub Actions 实现双库模式下的持续集成与自动发布，无需手动操作即可一键上线。\u003c/li\u003e\n\u003cli\u003e搜索功能集成：接入 \u003ca href=\"https://www.algolia.com/\" target=\"_blank\" rel=\"noopener noreffer \"\u003eAlgolia\u003c/a\u003e 实现全站内容搜索，并通过自动化脚本/流程实时同步索引，提升内容检索体验。\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e本教程将详细介绍环境准备、项目结构、主题配置、CI/CD 自动化、搜索集成、常见问题与优化建议，帮助你快速拥有属于自己的高质量博客站点。\u003c/p\u003e",
-    "content": "Hugo 集成 Algolia 搜索技巧 本文将手把手带你在 GitHub 上搭建高效、现代化的个人博客，内容涵盖：\n博客框架选型：基于 Hugo 静态网站生成器，配合美观强大的 LoveIt 主题。 自动化部署：利用 GitHub Actions 实现双库模式下的持续集成与自动发布，无需手动操作即可一键上线。 搜索功能集成：接入 Algolia 实现全站内容搜索，并通过自动化脚本/流程实时同步索引，提升内容检索体验。 本教程将详细介绍环境准备、项目结构、主题配置、CI/CD 自动化、搜索集成、常见问题与优化建议，帮助你快速拥有属于自己的高质量博客站点。\n",
-    "url": "/zh-cn/posts/hugo-algolia-search/",
-    "date": "2025-06-15 00:00:00 +0000 UTC"
-  },
-  {
-    "objectID": "https://jerryliucn.github.io/zh-cn/posts/servless/",
-    "title": "Serverless",
-    "description": "\u003ch1 id=\"什么是-serverless\"\u003e什么是 \u003cstrong\u003eServerless\u003c/strong\u003e\u003c/h1\u003e\n\u003cp\u003eServerless 是一种让开发者无需关心底层服务器和运维细节，只需专注于业务逻辑的云计算服务模式。\u003c/p\u003e\n\u003ch1 id=\"为什么要有-serverless\"\u003e为什么要有 Serverless\u003c/h1\u003e\n\u003col\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003e降低运维成本\u003c/strong\u003e\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e开发者无需管理服务器、操作系统、网络等底层资源，云平台自动完成部署、扩缩容和故障恢复。\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\n\u003cp\u003e\u003cstrong\u003e弹性伸缩\u003c/strong\u003e\u003c/p\u003e",
-    "content": "什么是 Serverless Serverless 是一种让开发者无需关心底层服务器和运维细节，只需专注于业务逻辑的云计算服务模式。\n为什么要有 Serverless 降低运维成本\n开发者无需管理服务器、操作系统、网络等底层资源，云平台自动完成部署、扩缩容和故障恢复。 弹性伸缩\nServerless 平台可根据请求量自动扩展或缩减资源，应对流量波动，无需人工干预。 按需计费\n只为实际消耗的资源和请求付费，无需为闲置资源买单，节省成本。 加快开发迭代\n专注于业务代码开发，减少基础设施配置和环境搭建，提升开发效率。 高可用与安全\n云平台提供高可用、自动容错和安全防护，降低单点故障和安全风险。 Serverless 让企业和开发者能够更敏捷地创新和交付产品，适合微服务、事件驱动、API 网关、定时任务等多种场景。\n",
-    "url": "/zh-cn/posts/servless/",
-    "date": "2025-06-15 01:34:38 +0800 +0800"
-  }
-]
+[{"categories":["技巧"],"content":"文章简介 ","date":"2025-06-15","objectID":"/zh-cn/posts/hugo-algolia-search/:0:0","tags":["github","blog","algolia","search"],"title":"以Hugo 的 LoveIt 模板为例搭建github个人博客","uri":"/zh-cn/posts/hugo-algolia-search/"},{"categories":["技巧"],"content":"简介 本文将手把手带你在 GitHub 上搭建高效、现代化的个人博客，内容涵盖： 博客框架选型：基于 Hugo 静态网站生成器，配合美观强大的 LoveIt 主题。 自动化部署：利用 GitHub Actions 实现双库模式下的持续集成与自动发布，无需手动操作即可一键上线。 搜索功能集成：接入 Algolia 实现全站内容搜索，并通过自动化脚本/流程实时同步索引，提升内容检索体验。 本教程将详细介绍环境准备、项目结构、主题配置、CI/CD 自动化、搜索集成、常见问题与优化建议，帮助你快速拥有属于自己的高质量博客站点。 ","date":"2025-06-15","objectID":"/zh-cn/posts/hugo-algolia-search/:1:0","tags":["github","blog","algolia","search"],"title":"以Hugo 的 LoveIt 模板为例搭建github个人博客","uri":"/zh-cn/posts/hugo-algolia-search/"},{"categories":null,"content":"什么是 Serverless Serverless 是一种让开发者无需关心底层服务器和运维细节，只需专注于业务逻辑的云计算服务模式。 为什么要有 Serverless 降低运维成本 开发者无需管理服务器、操作系统、网络等底层资源，云平台自动完成部署、扩缩容和故障恢复。 弹性伸缩 Serverless 平台可根据请求量自动扩展或缩减资源，应对流量波动，无需人工干预。 按需计费 只为实际消耗的资源和请求付费，无需为闲置资源买单，节省成本。 加快开发迭代 专注于业务代码开发，减少基础设施配置和环境搭建，提升开发效率。 高可用与安全 云平台提供高可用、自动容错和安全防护，降低单点故障和安全风险。 Serverless 让企业和开发者能够更敏捷地创新和交付产品，适合微服务、事件驱动、API 网关、定时任务等多种场景。 ","date":"2025-06-15","objectID":"/zh-cn/posts/servless/:0:0","tags":["serverless","云原生","架构"],"title":"Serverless","uri":"/zh-cn/posts/servless/"}]

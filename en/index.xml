@@ -12,14 +12,8 @@
     <pubDate>Sun, 15 Jun 2025 00:00:00 &#43;0000</pubDate>
     <author>Jerry Liu CN</author>
     <guid>https://jerryliucn.github.io/en/posts/hugo-algolia-search/</guid>
-    <description><![CDATA[<h1 id="hugo-algolia-search-integration-guide">Hugo Algolia Search Integration Guide</h1>
-<p>This tutorial will guide you to build a modern personal blog on GitHub, including:</p>
-<ul>
-<li>Blog framework: <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer ">Hugo</a> static site generator with the beautiful <a href="https://hugoloveit.com/" target="_blank" rel="noopener noreffer ">LoveIt</a> theme.</li>
-<li>Automated deployment: Use GitHub Actions for dual-repo CI/CD and one-click publishing.</li>
-<li>Search integration: Integrate <a href="https://www.algolia.com/" target="_blank" rel="noopener noreffer ">Algolia</a> for full-site search and automate index updates.</li>
-</ul>
-<p>You&rsquo;ll learn about environment setup, project structure, theme configuration, CI/CD, search integration, troubleshooting, and optimization tips to quickly launch your own high-quality blog.</p>]]></description>
+    <description><![CDATA[Hugo Algolia Search Integration Guide This tutorial will guide you to build a modern personal blog on GitHub, including:
+Blog framework: Hugo static site generator with the beautiful LoveIt theme. Automated deployment: Use GitHub Actions for dual-repo CI/CD and one-click publishing. Search integration: Integrate Algolia for full-site search and automate index updates. You&rsquo;ll learn about environment setup, project structure, theme configuration, CI/CD, search integration, troubleshooting, and optimization tips to quickly launch your own high-quality blog.]]></description>
 </item>
 <item>
     <title>Serverless</title>
@@ -27,24 +21,10 @@
     <pubDate>Sun, 15 Jun 2025 01:34:38 &#43;0800</pubDate>
     <author>Jerry Liu CN</author>
     <guid>https://jerryliucn.github.io/en/posts/serverless/</guid>
-    <description><![CDATA[<h1 id="what-is-serverless">What is <strong>Serverless</strong></h1>
-<p>Serverless is a cloud computing model that allows developers to focus solely on business logic without worrying about underlying servers and operational details.</p>
-<h1 id="why-serverless">Why Serverless</h1>
-<ol>
-<li>
-<p><strong>Reduced Operational Costs</strong></p>
-<ul>
-<li>Developers do not need to manage servers, operating systems, or networks. The cloud platform handles deployment, auto-scaling, and fault recovery automatically.</li>
-</ul>
-</li>
-<li>
-<p><strong>Elastic Scalability</strong></p>
-<ul>
-<li>Serverless platforms automatically scale resources up or down based on demand, handling traffic fluctuations without manual intervention.</li>
-</ul>
-</li>
-<li>
-<p><strong>Pay-as-You-Go</strong></p>]]></description>
+    <description><![CDATA[What is Serverless Serverless is a cloud computing model that allows developers to focus solely on business logic without worrying about underlying servers and operational details.
+Why Serverless Reduced Operational Costs
+Developers do not need to manage servers, operating systems, or networks. The cloud platform handles deployment, auto-scaling, and fault recovery automatically. Elastic Scalability
+Serverless platforms automatically scale resources up or down based on demand, handling traffic fluctuations without manual intervention.]]></description>
 </item>
 </channel>
 </rss>

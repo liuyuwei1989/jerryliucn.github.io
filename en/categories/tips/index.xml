@@ -10,14 +10,8 @@
     <pubDate>Sun, 15 Jun 2025 00:00:00 &#43;0000</pubDate>
     <author>Jerry Liu CN</author>
     <guid>https://jerryliucn.github.io/en/posts/hugo-algolia-search/</guid>
-    <description><![CDATA[<h1 id="hugo-algolia-search-integration-guide">Hugo Algolia Search Integration Guide</h1>
-<p>This tutorial will guide you to build a modern personal blog on GitHub, including:</p>
-<ul>
-<li>Blog framework: <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer ">Hugo</a> static site generator with the beautiful <a href="https://hugoloveit.com/" target="_blank" rel="noopener noreffer ">LoveIt</a> theme.</li>
-<li>Automated deployment: Use GitHub Actions for dual-repo CI/CD and one-click publishing.</li>
-<li>Search integration: Integrate <a href="https://www.algolia.com/" target="_blank" rel="noopener noreffer ">Algolia</a> for full-site search and automate index updates.</li>
-</ul>
-<p>You&rsquo;ll learn about environment setup, project structure, theme configuration, CI/CD, search integration, troubleshooting, and optimization tips to quickly launch your own high-quality blog.</p>]]></description>
+    <description><![CDATA[Hugo Algolia Search Integration Guide This tutorial will guide you to build a modern personal blog on GitHub, including:
+Blog framework: Hugo static site generator with the beautiful LoveIt theme. Automated deployment: Use GitHub Actions for dual-repo CI/CD and one-click publishing. Search integration: Integrate Algolia for full-site search and automate index updates. You&rsquo;ll learn about environment setup, project structure, theme configuration, CI/CD, search integration, troubleshooting, and optimization tips to quickly launch your own high-quality blog.]]></description>
 </item>
 </channel>
 </rss>

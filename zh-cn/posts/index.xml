@@ -10,14 +10,7 @@
     <pubDate>Sun, 15 Jun 2025 00:00:00 &#43;0000</pubDate>
     <author>Jerry Liu CN</author>
     <guid>https://jerryliucn.github.io/zh-cn/posts/hugo-algolia-search/</guid>
-    <description><![CDATA[<h1 id="hugo-集成-algolia-搜索技巧">Hugo 集成 Algolia 搜索技巧</h1>
-<p>本文将手把手带你在 GitHub 上搭建高效、现代化的个人博客，内容涵盖：</p>
-<ul>
-<li>博客框架选型：基于 <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer ">Hugo</a> 静态网站生成器，配合美观强大的 <a href="https://hugoloveit.com/" target="_blank" rel="noopener noreffer ">LoveIt</a> 主题。</li>
-<li>自动化部署：利用 GitHub Actions 实现双库模式下的持续集成与自动发布，无需手动操作即可一键上线。</li>
-<li>搜索功能集成：接入 <a href="https://www.algolia.com/" target="_blank" rel="noopener noreffer ">Algolia</a> 实现全站内容搜索，并通过自动化脚本/流程实时同步索引，提升内容检索体验。</li>
-</ul>
-<p>本教程将详细介绍环境准备、项目结构、主题配置、CI/CD 自动化、搜索集成、常见问题与优化建议，帮助你快速拥有属于自己的高质量博客站点。</p>]]></description>
+    <description><![CDATA[文章简介 简介 本文将手把手带你在 GitHub 上搭建高效、现代化的个人博客，内容涵盖： 博客框架选型：基于 Hugo 静态网站生成器，配合美观强大的 LoveIt 主题。 自动化部署]]></description>
 </item>
 <item>
     <title>Serverless</title>
@@ -25,18 +18,7 @@
     <pubDate>Sun, 15 Jun 2025 01:34:38 &#43;0800</pubDate>
     <author>Jerry Liu CN</author>
     <guid>https://jerryliucn.github.io/zh-cn/posts/servless/</guid>
-    <description><![CDATA[<h1 id="什么是-serverless">什么是 <strong>Serverless</strong></h1>
-<p>Serverless 是一种让开发者无需关心底层服务器和运维细节，只需专注于业务逻辑的云计算服务模式。</p>
-<h1 id="为什么要有-serverless">为什么要有 Serverless</h1>
-<ol>
-<li>
-<p><strong>降低运维成本</strong></p>
-<ul>
-<li>开发者无需管理服务器、操作系统、网络等底层资源，云平台自动完成部署、扩缩容和故障恢复。</li>
-</ul>
-</li>
-<li>
-<p><strong>弹性伸缩</strong></p>]]></description>
+    <description><![CDATA[什么是 Serverless Serverless 是一种让开发者无需关心底层服务器和运维细节，只需专注于业务逻辑的云计算服务模式。 为什么要有 Serverless 降低运维成本 开发者无需管理服务器、操作]]></description>
 </item>
 </channel>
 </rss>
