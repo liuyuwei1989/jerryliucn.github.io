@@ -1,10 +1,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Serverless - 标签 - Jerry Liu CN 的博客</title>
-        <link>https://jerryliucn.github.io/zh-cn/tags/serverless/</link>
-        <description>Serverless - 标签 - Jerry Liu CN 的博客</description>
+        <title>技术总结 - 分类 - Jerry Liu CN 的博客</title>
+        <link>https://jerryliucn.github.io/zh-cn/categories/%E6%8A%80%E6%9C%AF%E6%80%BB%E7%BB%93/</link>
+        <description>技术总结 - 分类 - Jerry Liu CN 的博客</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>liuyuwei1989@yeah.net (Jerry Liu CN)</managingEditor>
-            <webMaster>liuyuwei1989@yeah.net (Jerry Liu CN)</webMaster><lastBuildDate>Sat, 14 Jun 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://jerryliucn.github.io/zh-cn/tags/serverless/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>liuyuwei1989@yeah.net (Jerry Liu CN)</webMaster><lastBuildDate>Sat, 14 Jun 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://jerryliucn.github.io/zh-cn/categories/%E6%8A%80%E6%9C%AF%E6%80%BB%E7%BB%93/" rel="self" type="application/rss+xml" /><item>
     <title>Serverless 模板</title>
     <link>https://jerryliucn.github.io/zh-cn/posts/servless/</link>
     <pubDate>Sat, 14 Jun 2025 00:00:00 &#43;0000</pubDate>

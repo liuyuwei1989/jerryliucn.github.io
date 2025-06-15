@@ -15,9 +15,9 @@
     <description><![CDATA[文章简介 简介 本文将手把手带你在 GitHub 上搭建高效、现代化的个人博客，内容涵盖： 博客框架选型：基于 Hugo 静态网站生成器，配合美观强大的 LoveIt 主题。 自动化部署]]></description>
 </item>
 <item>
-    <title>Serverless</title>
+    <title>Serverless 模板</title>
     <link>https://jerryliucn.github.io/zh-cn/posts/servless/</link>
-    <pubDate>Sun, 15 Jun 2025 01:34:38 &#43;0800</pubDate>
+    <pubDate>Sat, 14 Jun 2025 00:00:00 &#43;0000</pubDate>
     <author>Jerry Liu CN</author>
     <guid>https://jerryliucn.github.io/zh-cn/posts/servless/</guid>
     <description><![CDATA[什么是 Serverless Serverless 是一种让开发者无需关心底层服务器和运维细节，只需专注于业务逻辑的云计算服务模式。 为什么要有 Serverless 降低运维成本 开发者无需管理服务器、操作]]></description>
