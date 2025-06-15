@@ -1,0 +1,27 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>云原生 - 标签 - Jerry Liu CN 的博客</title>
+        <link>https://jerryliucn.github.io/zh-cn/tags/%E4%BA%91%E5%8E%9F%E7%94%9F/</link>
+        <description>云原生 - 标签 - Jerry Liu CN 的博客</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>liuyuwei1989@yeah.net (Jerry Liu CN)</managingEditor>
+            <webMaster>liuyuwei1989@yeah.net (Jerry Liu CN)</webMaster><lastBuildDate>Sun, 15 Jun 2025 01:34:38 &#43;0800</lastBuildDate><atom:link href="https://jerryliucn.github.io/zh-cn/tags/%E4%BA%91%E5%8E%9F%E7%94%9F/" rel="self" type="application/rss+xml" /><item>
+    <title>Serverless</title>
+    <link>https://jerryliucn.github.io/zh-cn/posts/servless/</link>
+    <pubDate>Sun, 15 Jun 2025 01:34:38 &#43;0800</pubDate>
+    <author>Jerry Liu CN</author>
+    <guid>https://jerryliucn.github.io/zh-cn/posts/servless/</guid>
+    <description><![CDATA[<h1 id="什么是-serverless">什么是 <strong>Serverless</strong></h1>
+<p>Serverless 是一种让开发者无需关心底层服务器和运维细节，只需专注于业务逻辑的云计算服务模式。</p>
+<h1 id="为什么要有-serverless">为什么要有 Serverless</h1>
+<ol>
+<li>
+<p><strong>降低运维成本</strong></p>
+<ul>
+<li>开发者无需管理服务器、操作系统、网络等底层资源，云平台自动完成部署、扩缩容和故障恢复。</li>
+</ul>
+</li>
+<li>
+<p><strong>弹性伸缩</strong></p>]]></description>
+</item>
+</channel>
+</rss>

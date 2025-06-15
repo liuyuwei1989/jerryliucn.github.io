@@ -1,0 +1,33 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Architecture - Tag - Jerry Liu CN&#39;s Blog</title>
+        <link>https://jerryliucn.github.io/en/tags/architecture/</link>
+        <description>Architecture - Tag - Jerry Liu CN&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>liuyuwei1989@yeah.net (Jerry Liu CN)</managingEditor>
+            <webMaster>liuyuwei1989@yeah.net (Jerry Liu CN)</webMaster><lastBuildDate>Sun, 15 Jun 2025 01:34:38 &#43;0800</lastBuildDate><atom:link href="https://jerryliucn.github.io/en/tags/architecture/" rel="self" type="application/rss+xml" /><item>
+    <title>Serverless</title>
+    <link>https://jerryliucn.github.io/en/posts/serverless/</link>
+    <pubDate>Sun, 15 Jun 2025 01:34:38 &#43;0800</pubDate>
+    <author>Jerry Liu CN</author>
+    <guid>https://jerryliucn.github.io/en/posts/serverless/</guid>
+    <description><![CDATA[<h1 id="what-is-serverless">What is <strong>Serverless</strong></h1>
+<p>Serverless is a cloud computing model that allows developers to focus solely on business logic without worrying about underlying servers and operational details.</p>
+<h1 id="why-serverless">Why Serverless</h1>
+<ol>
+<li>
+<p><strong>Reduced Operational Costs</strong></p>
+<ul>
+<li>Developers do not need to manage servers, operating systems, or networks. The cloud platform handles deployment, auto-scaling, and fault recovery automatically.</li>
+</ul>
+</li>
+<li>
+<p><strong>Elastic Scalability</strong></p>
+<ul>
+<li>Serverless platforms automatically scale resources up or down based on demand, handling traffic fluctuations without manual intervention.</li>
+</ul>
+</li>
+<li>
+<p><strong>Pay-as-You-Go</strong></p>]]></description>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,23 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Tips - Category - Jerry Liu CN&#39;s Blog</title>
+        <link>https://jerryliucn.github.io/en/categories/tips/</link>
+        <description>Tips - Category - Jerry Liu CN&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>liuyuwei1989@yeah.net (Jerry Liu CN)</managingEditor>
+            <webMaster>liuyuwei1989@yeah.net (Jerry Liu CN)</webMaster><lastBuildDate>Sun, 15 Jun 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://jerryliucn.github.io/en/categories/tips/" rel="self" type="application/rss+xml" /><item>
+    <title>Hugo Algolia Search Integration Guide</title>
+    <link>https://jerryliucn.github.io/en/posts/hugo-algolia-search/</link>
+    <pubDate>Sun, 15 Jun 2025 00:00:00 &#43;0000</pubDate>
+    <author>Jerry Liu CN</author>
+    <guid>https://jerryliucn.github.io/en/posts/hugo-algolia-search/</guid>
+    <description><![CDATA[<h1 id="hugo-algolia-search-integration-guide">Hugo Algolia Search Integration Guide</h1>
+<p>This tutorial will guide you to build a modern personal blog on GitHub, including:</p>
+<ul>
+<li>Blog framework: <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer ">Hugo</a> static site generator with the beautiful <a href="https://hugoloveit.com/" target="_blank" rel="noopener noreffer ">LoveIt</a> theme.</li>
+<li>Automated deployment: Use GitHub Actions for dual-repo CI/CD and one-click publishing.</li>
+<li>Search integration: Integrate <a href="https://www.algolia.com/" target="_blank" rel="noopener noreffer ">Algolia</a> for full-site search and automate index updates.</li>
+</ul>
+<p>You&rsquo;ll learn about environment setup, project structure, theme configuration, CI/CD, search integration, troubleshooting, and optimization tips to quickly launch your own high-quality blog.</p>]]></description>
+</item>
+</channel>
+</rss>
