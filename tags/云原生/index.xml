@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>云原生 on 我的全新 Hugo 网站</title><link>https://jerryliucn.github.io/tags/%E4%BA%91%E5%8E%9F%E7%94%9F/</link><description>Recent content in 云原生 on 我的全新 Hugo 网站</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sun, 15 Jun 2025 01:34:38 +0800</lastBuildDate><atom:link href="https://jerryliucn.github.io/tags/%E4%BA%91%E5%8E%9F%E7%94%9F/index.xml" rel="self" type="application/rss+xml"/><item><title>Serverless</title><link>https://jerryliucn.github.io/posts/servless/</link><pubDate>Sun, 15 Jun 2025 01:34:38 +0800</pubDate><guid>https://jerryliucn.github.io/posts/servless/</guid><description>&lt;h1 id="什么是-serverless">什么是 &lt;strong>Serverless&lt;/strong>&lt;/h1>
+&lt;p>Serverless 是一种让开发者无需关心底层服务器和运维细节，只需专注于业务逻辑的云计算服务模式。&lt;/p>
+&lt;h1 id="为什么要有-serverless">为什么要有 Serverless&lt;/h1>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;strong>降低运维成本&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>开发者无需管理服务器、操作系统、网络等底层资源，云平台自动完成部署、扩缩容和故障恢复。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>弹性伸缩&lt;/strong>&lt;/p></description></item></channel></rss>
