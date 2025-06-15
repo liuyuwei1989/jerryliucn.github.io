@@ -20,6 +20,15 @@
                     hreflang="en"
                     href="https://jerryliucn.github.io/en/tags/blog/"
                     /></url><url>
+            <loc>https://jerryliucn.github.io/en/posts/hugo-algolia-search/</loc><lastmod>2025-06-15T00:00:00&#43;00:00</lastmod><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://jerryliucn.github.io/zh-cn/posts/hugo-algolia-search/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://jerryliucn.github.io/en/posts/hugo-algolia-search/"
+                    /></url><url>
             <loc>https://jerryliucn.github.io/en/categories/</loc><lastmod>2025-06-15T00:00:00&#43;00:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
@@ -37,15 +46,6 @@
                     rel="alternate"
                     hreflang="en"
                     href="https://jerryliucn.github.io/en/tags/github/"
-                    /></url><url>
-            <loc>https://jerryliucn.github.io/en/posts/hugo-algolia-search/</loc><lastmod>2025-06-15T00:00:00&#43;00:00</lastmod><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://jerryliucn.github.io/zh-cn/posts/hugo-algolia-search/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://jerryliucn.github.io/en/posts/hugo-algolia-search/"
                     /></url><url>
             <loc>https://jerryliucn.github.io/en/</loc><lastmod>2025-06-15T00:00:00&#43;00:00</lastmod><xhtml:link
                         rel="alternate"

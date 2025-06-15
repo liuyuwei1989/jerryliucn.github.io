@@ -5,13 +5,13 @@
         <description>Blog - Tag - Jerry Liu CN&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>liuyuwei1989@yeah.net (Jerry Liu CN)</managingEditor>
             <webMaster>liuyuwei1989@yeah.net (Jerry Liu CN)</webMaster><lastBuildDate>Sun, 15 Jun 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://jerryliucn.github.io/en/tags/blog/" rel="self" type="application/rss+xml" /><item>
-    <title>Hugo Algolia Search Integration Guide</title>
+    <title>Build a Personal GitHub Blog with Hugo and LoveIt Theme</title>
     <link>https://jerryliucn.github.io/en/posts/hugo-algolia-search/</link>
     <pubDate>Sun, 15 Jun 2025 00:00:00 &#43;0000</pubDate>
     <author>Jerry Liu CN</author>
     <guid>https://jerryliucn.github.io/en/posts/hugo-algolia-search/</guid>
-    <description><![CDATA[Hugo Algolia Search Integration Guide This tutorial will guide you to build a modern personal blog on GitHub, including:
-Blog framework: Hugo static site generator with the beautiful LoveIt theme. Automated deployment: Use GitHub Actions for dual-repo CI/CD and one-click publishing. Search integration: Integrate Algolia for full-site search and automate index updates. You&rsquo;ll learn about environment setup, project structure, theme configuration, CI/CD, search integration, troubleshooting, and optimization tips to quickly launch your own high-quality blog.]]></description>
+    <description><![CDATA[Introduction This tutorial will guide you step by step to build an efficient and modern personal blog on GitHub, covering:
+Blog framework selection: Based on the Hugo static site generator, combined with the beautiful and powerful LoveIt theme. Automated deployment: Use GitHub Actions to achieve continuous integration and automatic publishing in a dual-repo mode. No manual operation is required—just push your code to go live automatically. Search integration: Integrate Algolia for full-site content search, and use automated scripts/processes to keep the index in sync in real time, improving content retrieval experience.]]></description>
 </item>
 </channel>
 </rss>

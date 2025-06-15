@@ -4,11 +4,17 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title>Hugo Algolia Search Integration Guide - Jerry Liu CN&#39;s Blog</title><meta name="Description" content="This is my cool site"><meta property="og:url" content="https://jerryliucn.github.io/en/posts/hugo-algolia-search/">
+        <title>Build a Personal GitHub Blog with Hugo and LoveIt Theme - Jerry Liu CN&#39;s Blog</title><meta name="Description" content="This is my cool site">
+
+
+<meta property="og:title" content="hugo-algolia-search">
+
+
+<meta name="Description" content="This is my cool site"><meta property="og:url" content="https://jerryliucn.github.io/en/posts/hugo-algolia-search/">
   <meta property="og:site_name" content="Jerry Liu CN&#39;s Blog">
-  <meta property="og:title" content="Hugo Algolia Search Integration Guide">
-  <meta property="og:description" content="Hugo Algolia Search Integration Guide This tutorial will guide you to build a modern personal blog on GitHub, including:
-Blog framework: Hugo static site generator with the beautiful LoveIt theme. Automated deployment: Use GitHub Actions for dual-repo CI/CD and one-click publishing. Search integration: Integrate Algolia for full-site search and automate index updates. You’ll learn about environment setup, project structure, theme configuration, CI/CD, search integration, troubleshooting, and optimization tips to quickly launch your own high-quality blog.">
+  <meta property="og:title" content="Build a Personal GitHub Blog with Hugo and LoveIt Theme">
+  <meta property="og:description" content="Introduction This tutorial will guide you step by step to build an efficient and modern personal blog on GitHub, covering:
+Blog framework selection: Based on the Hugo static site generator, combined with the beautiful and powerful LoveIt theme. Automated deployment: Use GitHub Actions to achieve continuous integration and automatic publishing in a dual-repo mode. No manual operation is required—just push your code to go live automatically. Search integration: Integrate Algolia for full-site content search, and use automated scripts/processes to keep the index in sync in real time, improving content retrieval experience.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -20,11 +26,12 @@ Blog framework: Hugo static site generator with the beautiful LoveIt theme. Auto
     <meta property="article:tag" content="Search">
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Hugo Algolia Search Integration Guide">
-  <meta name="twitter:description" content="Hugo Algolia Search Integration Guide This tutorial will guide you to build a modern personal blog on GitHub, including:
-Blog framework: Hugo static site generator with the beautiful LoveIt theme. Automated deployment: Use GitHub Actions for dual-repo CI/CD and one-click publishing. Search integration: Integrate Algolia for full-site search and automate index updates. You’ll learn about environment setup, project structure, theme configuration, CI/CD, search integration, troubleshooting, and optimization tips to quickly launch your own high-quality blog.">
+  <meta name="twitter:title" content="Build a Personal GitHub Blog with Hugo and LoveIt Theme">
+  <meta name="twitter:description" content="Introduction This tutorial will guide you step by step to build an efficient and modern personal blog on GitHub, covering:
+Blog framework selection: Based on the Hugo static site generator, combined with the beautiful and powerful LoveIt theme. Automated deployment: Use GitHub Actions to achieve continuous integration and automatic publishing in a dual-repo mode. No manual operation is required—just push your code to go live automatically. Search integration: Integrate Algolia for full-site content search, and use automated scripts/processes to keep the index in sync in real time, improving content retrieval experience.">
 <meta name="application-name" content="My cool site">
-<meta name="apple-mobile-web-app-title" content="My cool site"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+<meta name="apple-mobile-web-app-title" content="My cool site"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c">
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://jerryliucn.github.io/en/posts/hugo-algolia-search/" /><link rel="prev" href="https://jerryliucn.github.io/en/posts/serverless/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -32,12 +39,12 @@ Blog framework: Hugo static site generator with the beautiful LoveIt theme. Auto
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "Hugo Algolia Search Integration Guide",
+        "headline": "Build a Personal GitHub Blog with Hugo and LoveIt Theme",
         "inLanguage": "en",
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/jerryliucn.github.io\/en\/posts\/hugo-algolia-search\/"
-        },"genre": "posts","keywords": "github, blog, algolia, search","wordcount":  78 ,
+        },"genre": "posts","keywords": "github, blog, algolia, search","wordcount":  223 ,
         "url": "https:\/\/jerryliucn.github.io\/en\/posts\/hugo-algolia-search\/","datePublished": "2025-06-15T00:00:00+00:00","dateModified": "2025-06-15T00:00:00+00:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -115,10 +122,10 @@ Blog framework: Hugo static site generator with the beautiful LoveIt theme. Auto
                 <div class="container"><div class="toc" id="toc-auto">
             <h2 class="toc-title">Contents</h2>
             <div class="toc-content always-active" id="toc-content-auto"></div>
-        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Hugo Algolia Search Integration Guide</h1><div class="post-meta">
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Build a Personal GitHub Blog with Hugo and LoveIt Theme</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://jerryliucn.github.io/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Jerry Liu CN</a></span>&nbsp;<span class="post-category">included in <a href="/en/categories/tips/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Tips</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2025-06-15">2025-06-15</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;78 words&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;One minute&nbsp;</div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2025-06-15">2025-06-15</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;223 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;2 minutes&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="">
                 <div class="details-summary toc-title">
                     <span>Contents</span>
@@ -126,19 +133,25 @@ Blog framework: Hugo static site generator with the beautiful LoveIt theme. Auto
                 </div>
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
-    <li><a href="#hugo-algolia-search-integration-guide">Hugo Algolia Search Integration Guide</a></li>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#github-blog-setup-flowchart">GitHub Blog Setup Flowchart</a></li>
   </ul>
 </nav></div>
-            </div><div class="content" id="content"><h2 id="hugo-algolia-search-integration-guide">Hugo Algolia Search Integration Guide</h2>
-<p>This tutorial will guide you to build a modern personal blog on GitHub, including:</p>
+            </div><div class="content" id="content"><h2 id="introduction">Introduction</h2>
+<p>This tutorial will guide you step by step to build an efficient and modern personal blog on GitHub, covering:</p>
 <ul>
-<li>Blog framework: <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer ">Hugo</a> static site generator with the beautiful <a href="https://hugoloveit.com/" target="_blank" rel="noopener noreffer ">LoveIt</a> theme.</li>
-<li>Automated deployment: Use GitHub Actions for dual-repo CI/CD and one-click publishing.</li>
-<li>Search integration: Integrate <a href="https://www.algolia.com/" target="_blank" rel="noopener noreffer ">Algolia</a> for full-site search and automate index updates.</li>
+<li>Blog framework selection: Based on the <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer ">Hugo</a> static site generator, combined with the beautiful and powerful <a href="https://hugoloveit.com/" target="_blank" rel="noopener noreffer ">LoveIt</a> theme.</li>
+<li>Automated deployment: Use GitHub Actions to achieve continuous integration and automatic publishing in a dual-repo mode. No manual operation is required—just push your code to go live automatically.</li>
+<li>Search integration: Integrate <a href="https://www.algolia.com/" target="_blank" rel="noopener noreffer ">Algolia</a> for full-site content search, and use automated scripts/processes to keep the index in sync in real time, improving content retrieval experience.</li>
+<li>Comment system: Enable blog comments with Giscus.</li>
 </ul>
-<p>You&rsquo;ll learn about environment setup, project structure, theme configuration, CI/CD, search integration, troubleshooting, and optimization tips to quickly launch your own high-quality blog.</p>
-<p>Related theme: <a href="https://hugoloveit.com/" target="_blank" rel="noopener noreffer ">LoveIt</a></p>
-<!-- raw HTML omitted -->
+<p>This tutorial will cover environment preparation, project structure, theme configuration, CI/CD automation, search integration, comment integration, common issues, and optimization tips, helping you quickly own a high-quality personal blog.</p>
+<p>Although the process seems long, it is not complicated. After following along, you can have a personal blog with a github.io domain without renting a server. The blog will automatically categorize your posts by tags and categories, support full-site search, and even enable comments. All these features are completely free—just spend a little time and you can have your own blog on GitHub, one of the most visited websites in the world! Go for it!</p>
+<h2 id="github-blog-setup-flowchart">GitHub Blog Setup Flowchart</h2>
+<div class="mermaid" id="id-1"></div>
+<blockquote>
+<p>The above flowchart visualizes the complete process from local setup to automated deployment and comment system integration.</p>
+</blockquote>
 </div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
@@ -148,7 +161,7 @@ Blog framework: Hugo static site generator with the beautiful LoveIt theme. Auto
         <div class="post-info-line">
             <div class="post-info-md"></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://jerryliucn.github.io/en/posts/hugo-algolia-search/" data-title="Hugo Algolia Search Integration Guide" data-hashtags="github,blog,algolia,search"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://jerryliucn.github.io/en/posts/hugo-algolia-search/" data-hashtag="github"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://jerryliucn.github.io/en/posts/hugo-algolia-search/" data-title="Hugo Algolia Search Integration Guide"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://jerryliucn.github.io/en/posts/hugo-algolia-search/" data-title="Hugo Algolia Search Integration Guide"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.3.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://jerryliucn.github.io/en/posts/hugo-algolia-search/" data-title="Hugo Algolia Search Integration Guide"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://jerryliucn.github.io/en/posts/hugo-algolia-search/" data-title="Build a Personal GitHub Blog with Hugo and LoveIt Theme" data-hashtags="github,blog,algolia,search"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://jerryliucn.github.io/en/posts/hugo-algolia-search/" data-hashtag="github"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://jerryliucn.github.io/en/posts/hugo-algolia-search/" data-title="Build a Personal GitHub Blog with Hugo and LoveIt Theme"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://jerryliucn.github.io/en/posts/hugo-algolia-search/" data-title="Build a Personal GitHub Blog with Hugo and LoveIt Theme"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.3.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://jerryliucn.github.io/en/posts/hugo-algolia-search/" data-title="Build a Personal GitHub Blog with Hugo and LoveIt Theme"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
             </div>
         </div>
     </div>
@@ -176,5 +189,5 @@ Blog framework: Hugo static site generator with the beautiful LoveIt theme. Auto
             </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
                 <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
             </a>
-        </div><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/algoliasearch@4.13.1/dist/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{"giscus":{"category":"Announcements","categoryId":"DIC_kwDOO7oqFc4Crhic","darkTheme":"dark","emitMetadata":"0","inputPosition":"bottom","lang":"en","lazyLoading":true,"lightTheme":"light","mapping":"pathname","reactionsEnabled":"1","repo":"jerryliucn/jerryliucn.github.io","repoId":"R_kgDOO7oqFQ"}},"search":{"algoliaAppID":"YYG96ZVJZO","algoliaIndex":"jerryliucn-github-io-en","algoliaSearchKey":"b702a3cc1822393de89081d6403273c1","highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"algolia"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+        </div><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/algoliasearch@4.13.1/dist/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{"giscus":{"category":"Announcements","categoryId":"DIC_kwDOO7oqFc4Crhic","darkTheme":"dark","emitMetadata":"0","inputPosition":"bottom","lang":"en","lazyLoading":true,"lightTheme":"light","mapping":"og:title","reactionsEnabled":"1","repo":"jerryliucn/jerryliucn.github.io","repoId":"R_kgDOO7oqFQ"}},"search":{"algoliaAppID":"YYG96ZVJZO","algoliaIndex":"jerryliucn-github-io-en","algoliaSearchKey":"b702a3cc1822393de89081d6403273c1","highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"algolia"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
 </html>
